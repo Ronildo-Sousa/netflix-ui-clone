@@ -1,7 +1,7 @@
 <template>
   <div
   v-if="items"
-   class="mb-7" 
+   class="mb-7 text-gray-50" 
    @mouseenter="listHover = true" @mouseleave="listHover = false">
     <h2 class="ml-7 text-lg lg:text-2xl font-bold">{{ title }}</h2>
     <div 
